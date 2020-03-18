@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="semantic.min.css">
+    <style media="screen">
+       body{background-color:grey;}
+       img{
+         margin: 0 auto;
+       }
+       form{
+        background: white;
+        width: 40%;
+        display: block;
+        margin: auto;
+       }
+       .div{padding-top: 100px;}
+    </style>
+  </head>
+  <body>
+    <h2 style="text-align:center;">
+         <img src="niomic.png" width="60px" height="50px" />
+        <p style="display:inline;">Log-in to your account<p>
+   </h2>
+    <form class="ui large form">
+        <div class="ui stacked segment">
+          <div class="field">
+            <div class="ui left icon input">
+              <i class="user icon"></i>
+              <input type="text" name="text" placeholder="Nama Depan" />
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui left icon input">
+              <i class="user icon"></i>
+              <input type="text" name="text" placeholder="Nama Belakang" />
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui left icon input">
+              <i class="user icon"></i>
+              <input type="number" name="number" placeholder="No telp/HP" />
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui left icon input">
+              <i class="user icon"></i>
+              <input type="text" name="email" placeholder="E-mail address" />
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui left icon input">
+              <i class="lock icon"></i>
+              <input type="password" name="password" placeholder="Password" />
+            </div>
+          </div>
+          <div class="ui fluid large teal submit button">Login</div>
+        </div>
+
+        <div class="ui error message"></div>
+      </form>
+  <script src="semantic.min.js"></script>
+  </body>
+</html>
